@@ -6,8 +6,8 @@
 
 import torch
 
-from mobile_sam import sam_model_registry
-from mobile_sam.utils.onnx import SamOnnxModel
+from mobile_sam_v2 import sam_model_registry
+from mobile_sam_v2.utils.onnx import SamOnnxModel
 
 import argparse
 import warnings
